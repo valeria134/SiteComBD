@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+</br> </br> </br>
+<img src="{{url_for('static', filename='images/cadastro/CadastrarBackground.jpg')}}"  id="FacaOcadastro">
+	<div id="BackgroundCadastro">
+		<form id="forum">
+			<br></br></br></br>
+		 <form method="POST" action="">
+		{{form.hidden_tag()}}
+	<div class="form-group">
+		{{form.usuario.label}}
+		{{form.usuario}}
+  	</div>
+  	<div class="form-group">
+		{{form.email.label}}
+		{{form.email}}
+  	</div>
+  	<div class="form-group">
+		{{form.password.label}}
+		{{form.password}}
+  	</div>
+	    {{form.submit}}
+	</br>
+	
+</form>  
+{% endblock %}

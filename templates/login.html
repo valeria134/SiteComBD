@@ -1,0 +1,20 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+		</br></br></br>
+		<img src="{{url_for('static', filename='images/login/BackgroundLogin.jpg')}}" id="FacaOlogin">
+		<div id="BackgroundLogin">
+				<form id="forum">	
+			<form method="POST">
+				{{formulario.hidden_tag()}}
+				{{formulario.email.label}}:  {{formulario.email}}
+				{{formulario.hidden_tag()}}
+				{{formulario.senha.label}}:  {{formulario.senha}}
+				</br>
+				<button class ="btn-large waves-effect waves-dark" style="width:100%" type="submit" onclick="return validar()">Login</button>
+				<br>  
+			</form>  
+		</div>
+{% endblock %}
+   

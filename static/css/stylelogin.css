@@ -1,0 +1,47 @@
+body {
+		background-attachment:fixed;
+		 background-size:100%;
+		 background-repeat:no-repeat;
+		
+	}
+#FacaOlogin {
+	background-image: url("BackgroundLogin.jpg");
+	height: 500px;
+		 width: 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin-top: -200px;
+	}
+#BackgroundLogin {
+	}
+#titulo{
+		font-family:helvetica;
+		text-align:center;
+	}
+	
+#forum{
+	border-radius:px;
+	padding:15px;
+	font-size:15px;
+	color:#999;
+	margin:0 auto; 
+	width:300px;
+	
+	}
+
+.form-group{
+	color: black;
+	
+	} 
+
+input,textarea{
+	
+	padding:10px;
+	width:270px;
+	}
+
+
+h1{
+	font-family:helvetica;
+	color:#0a0f05;
+	}

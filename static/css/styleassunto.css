@@ -1,0 +1,111 @@
+	body { 
+		   background-color:; 
+	}	
+	
+	h1{
+		font-family:helvetica;
+	}
+
+	header{
+		font-size: 200px;
+		text-align: center; 
+	
+	
+	}
+	.conteudo{
+		
+		 width: 950px; 
+		 height: 250px;
+		 font-size:18px;
+		 margin: 0 auto;
+		 text-align: justify;
+	}
+	 p {
+		 text-indent: 0; margin-top: 0.83em; 
+		
+	}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+ float: right;
+}
+
+
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  
+}
+.card1{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+ float: right;
+}
+
+
+
+.card1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  
+}
+
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  
+}
+
+.card button:hover {
+  opacity: 0.7;
+}

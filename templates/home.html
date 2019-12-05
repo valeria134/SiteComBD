@@ -1,0 +1,80 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+	<body class="bg-success">
+			
+			<div id="logoImagem">
+				<img src="{{url_for('static', filename='images/home/PapelDeParede.jpg')}}" style="width: 100%; height: 606px;">
+			</div>
+
+			<div id="BackgroundBranco" >
+				<img src="{{url_for('static', filename='images/home/PrimeiraMensagem.png')}}" style="width: 90%;">
+		<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+		<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+			<li data-target="#demo" data-slide-to="1"></li>
+		</ul>
+  
+  <!-- The slideshow -->
+		<div class="carousel-inner" style="width:1200px; height: 450px; margin-top: -175px; margin-left: 55px;">
+			<div class="carousel-item active" id="C1">
+			<img src="{{url_for('static', filename='images/home/CarrouselPrimeiraImg.jpg')}}">
+		</div>
+		<div class="carousel-item">
+			<img src="{{url_for('static', filename='images/home/img2caroussel.jpg')}}">
+
+		
+  <!-- Left and right controls -->
+		<div id="BotoesCarousel" style="margin-botton: 300px;">
+			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+	   </div>	
+	   </div>
+	  </div>
+	<img src="./static/images/home/Linha.png" style="margin-top: -300px; width: 90%;">
+	<div id="BackgroundVerde" >
+		<img src="{{url_for('static', filename='images/home/Frase.png')}}" style="width: 70%;">
+		<img src="{{url_for('static', filename='images/home/CARD1.png')}}" style="margin-top: -220px; margin-right: 1000px; width: 50%;">
+		<img src="{{url_for('static', filename='images/home/CARD2.png')}}" style="margin-top: -430px; width: 50%;">
+		<img src="{{url_for ('static',filename='images/home/CARD3.png')}}" style="margin-top: -430px; margin-left: 650px; width: 50%;">
+		<h2 style="text-align:center"></h2><br></br>
+
+	<div id="a">
+	<div class="card">
+ 
+  
+		<h1>Atividades</h1>
+		<p class="price">Aqui você encontra uma serié de exercícios com resolução</p>
+	</div>
+	</div> 
+
+	<div id="b">
+		<div class="card">  
+			<h1>Simulados</h1>
+			<p class="price">melhore seu desempenho escolar,com simulados</p>
+		</div>
+	</div>
+ 
+	<div id="c">
+		<div class="card">
+		<h1>Dicas</h1>
+		<p class="price">Deixe sua rotina de estudos organizada</p>
+		</div>
+	</div>
+	</div>
+	
+	<img src="{{url_for('static',filename='images/home/Body.jpg')}}" id="BackgroundBranco2">
+		<h5 style="color: white; float: left; margin-top: 10px;"> ENTRE EM CONTATO:</h5> </br>
+		<a href="contato/contato.html" style=" float:left; margin-top: -20px;" >contato@gmail.com</a>
+		<font face="Georgia" style="color: white; float: right; margin-top: -50px;">&copy; Biologia Acadêmica - 2019 </font></br> </br>
+	</body>
+	
+{% endblock %}
