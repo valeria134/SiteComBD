@@ -5,7 +5,7 @@ from wtforms.validators import DataRequired, Email, EqualTo
 class CadastroForm(FlaskForm):
     usuario = StringField("Usuario", validators= [DataRequired()])
     email = StringField("Email", validators= [DataRequired(),Email()])
-    password = PasswordField("Senha",[DataRequired(),EqualTo('confirm',message='Senhas diferentes')])
+    password = PasswordField("Senha",[DataRequired()])
     submit = SubmitField('Cadastrar')
 
 

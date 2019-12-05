@@ -4,10 +4,11 @@
 </br> </br> </br>
 <img src="{{url_for('static', filename='images/cadastro/CadastrarBackground.jpg')}}"  id="FacaOcadastro">
 	<div id="BackgroundCadastro">
-		<form id="forum">
+		<form id="forum" method='POST'>
 			<br></br></br></br>
-		 <form method="POST" action="">
+		 <form method="POST">
 		{{form.hidden_tag()}}
+		{{form.csrf_token}}
 	<div class="form-group">
 		{{form.usuario.label}}
 		{{form.usuario}}

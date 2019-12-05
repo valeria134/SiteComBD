@@ -27,14 +27,20 @@ def home():
 @app.route('/cadastro', methods=["GET", "POST"])
 def Cadastro():
     form = CadastroForm()
+    print('passei aqui')
+    print(form.validate_on_submit())
+    print(form.usuario.data)
+    print(form.email.data)
+    print(form.password.data)
     if form.validate_on_submit():
+        print('passei aqui tambem')
         user = User()
-        usuario = request.form['usuario']
-        email = request.form['email']
-        password = request.form['password']
-        db.session(user)
+        user.usuario = request.form['usuario']
+        user.email = request.form['email']
+        user.password = request.form['password']
+        db.session.add(user)
         db.session.commit()
-        
+
     return render_template(
         'cadastro.html',
         form=form
